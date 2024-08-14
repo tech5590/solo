@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
 
   /* tmp */
-  /* border: 1px solid #000; */
+  border: 1px solid #000;
 }
 
 .container--flex {
@@ -135,8 +135,38 @@ body {
   padding-right: 10px;
 }
 
-.section__title--last {
-
+.user-pic {
+  width: 75px;
+  height: 75px;
+  margin-right: 15px;
 }
 
+.user-info {
+  width: 483px;
+  height: 121px;
+  padding: 15px 15px 15px 27px;
+  margin-bottom: 24px;
+  background-image: url(./user-info.png);
+  background-repeat: no-repeat;
+}
 
+.user-text {
+  font-size: 14px;
+  line-height: 18px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-size: 14px;
+  line-height: 18px;
+  color: #989898;
+}
+
+.section--last {
+  background-color: #445162;
+}
+
+.section__title--last {
+  color: #ffffff;
+}
