@@ -288,35 +288,30 @@ body {
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 30px;
 }
 
 .contact-link {
-  padding-bottom: 5px;
-}
-
-.contact-link::before {
-  padding-right: 5px;
-}
-
-.contact-link--skype::before {
-  content: url(./image/icon/skype-icon.png);
-}
-
-.contact-link--icq::before {
-  content: url(./image/icon/icq-icon.png);
-}
-
-.contact-link--email::before {
-  content: url(./image/icon/email-icon.png);
-}
-
-.contact-link--phone::before {
-  content: url(./image/icon/phone-icon.png);
+  display: flex;
+  gap: 5px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .social-links {
   width: 240px;
   height: 42px;
+}
+
+.footer {
+  height: 26px;
+}
+
+.footer__text {
+  font-size: 12px;
+  line-height: 24px;
+  color: #445162;
+  text-align: center;
+  letter-spacing: 0.25px;
 }
